@@ -1,0 +1,117 @@
+
+_____________Tokenize started in source program____________
+
+
+___________Removing all comment in source program____________
+
+
+_____________Tokenize complete in source program____________
+
+
+_____________SYNTAX ANALYSIS Process Started ___________________________
+
+
+____________ SYNTAX ANALYSIS Process Ended______________________________
+
+
+_____________Showing COMPILING Message _________________________________
+
+OK - INCLUDE section at line -> 8 :
+        # include <stdio.h>
+
+
+OK - INCLUDE section at line -> 9 :
+        #include<math.h>
+
+
+OK - Variable Declaration at line -> 14 :
+            int a_1 , b01_3, _var ;
+
+
+OK - Variable Declaration at line -> 15 :
+            int x;
+
+
+OK - Variable Declaration at line -> 16 :
+            char ch;
+
+
+OK - Variable Declaration at line -> 17 :
+            float fracnum;
+
+
+OK - IF_section at line -> 19 :
+            if(x<10){
+
+
+OK - Assignment statement at line -> 20 :
+                x = 10;
+
+
+OK - Assignment statement at line -> 21 :
+                fracnum = x/100; // assignment expression
+
+
+OK - ELSE_statement at line -> 23 :
+            else{
+
+
+OK - Assignment statement at line -> 24 :
+                x = 2*x;
+
+
+OK - FOR_LOOP_section at line -> 27 :
+            for(i=0; i<10; i++){
+
+
+OK - Variable Declaration at line -> 28 :
+                int temp;
+
+
+OK - Assignment statement at line -> 29 :
+                temp = 10;
+
+
+OK - Assignment statement at line -> 30 :
+                temp = temp + i;
+
+
+OK - Assignment statement at line -> 32 :
+            i=1;
+
+
+OK - FOR_LOOP_section at line -> 33 :
+            for( ; i<10; ){
+
+
+OK - increment/decrement statement at line -> 34 :
+                i++;
+
+
+OK - Assignment statement at line -> 35 :
+                temp = temp + i;
+
+
+OK - Assignment statement at line -> 38 :
+            i=100;
+
+
+OK - WHILE_LOOP_section at line -> 39 :
+            while(i>10){
+
+
+OK - increment/decrement statement at line -> 41 :
+                i--;
+
+
+OK - increment/decrement statement at line -> 42 :
+                temp++;
+
+
+
+
+
+_______COMPILATION FINISHED : 0 ERROR(S) and 0 WARNING(S)._______
+
+
+Press any key to continue ...

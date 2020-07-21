@@ -1,0 +1,86 @@
+
+_____________Tokenize started in source program____________
+
+
+___________Removing all comment in source program____________
+
+
+_____________Tokenize complete in source program____________
+
+
+_____________SYNTAX ANALYSIS Process Started ___________________________
+
+
+____________ SYNTAX ANALYSIS Process Ended______________________________
+
+
+_____________Showing COMPILING Message _________________________________
+
+ERROR !!! - at line -> 5 :
+        # include <std.h>
+
+        ^        Invalid INCLUDE_section
+
+OK - INCLUDE section at line -> 6 :
+        #include<math.h>
+
+
+ERROR !!! - at line -> 10 :
+            int 123xyz;
+
+            ^    Invalid Variable Declaration
+
+ERROR !!! - at line -> 13 :
+            if(x<10;){
+
+            ^    IF_section
+
+OK - Assignment statement at line -> 14 :
+                x = 10;
+
+
+OK - Variable Declaration at line -> 16 :
+            char ch;
+
+
+WARNING - at line -> 17 :
+            else{ // wrong else statement (extra statement between if and else)
+
+            ^    Note:ELSE_statement always following by IF_statement.
+
+OK - ELSE_statement at line -> 17 :
+            else{ // wrong else statement (extra statement between if and else)
+
+
+OK - Assignment statement at line -> 18 :
+                x = 2*x;
+
+
+ERROR !!! - at line -> 21 :
+            for(i=0; i<10; i++ {
+
+            ^    FOR_LOOP_section
+
+OK - Variable Declaration at line -> 22 :
+                int temp;
+
+
+ERROR !!! - at line -> 25 :
+            for( i =0 ; i<10 ){
+
+            ^    FOR_LOOP_section
+
+OK - increment/decrement statement at line -> 26 :
+                i++;
+
+
+OKMAIN - at line -> 30 :
+        END
+
+
+
+
+_______COMPILATION FINISHED : 5 ERROR(S) and 1 WARNING(S)._______
+
+
+Press any key to continue ...
